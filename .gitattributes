@@ -1,1 +1,3 @@
 templates/*.tpl linguist-language=Helm
+templates/*.tpl linguist-language=Helm
+templates/*.yaml linguist-language=Helm
