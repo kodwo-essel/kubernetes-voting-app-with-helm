@@ -1,0 +1,21 @@
+# Ignore Kubernetes manifest output files (if you generate them locally)
+*.yaml
+*.yml
+
+# Ignore Helm cache and temp files
+.cache/
+.tmp/
+*.lock
+
+# Ignore any secrets or sensitive files you don’t want in Git
+secrets.yaml
+*.secret.yaml
+
+# Ignore logs or temp files
+*.log
+*.tmp
+
+# Ignore IDE/editor specific files (optional)
+.vscode/
+.idea/
+.DS_Store
